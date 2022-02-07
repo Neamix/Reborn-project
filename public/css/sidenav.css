@@ -1,0 +1,44 @@
+.sidenav .card {
+    border-radius: 0;
+    border: none;
+}
+
+
+.sidenav .card .card-header{
+    padding: 3px 10px;
+    background: #171719;
+    border-radius: 0;
+    font-size: 13px;
+    padding: 0px 10px;
+    border: none;
+}
+
+.sidenav .card .card-header p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.sidenav .card .card-body {
+    background: #252527;
+    border: none;
+}
+
+.sidenav .card .card-body th,
+.sidenav .card .card-body td{
+    border: none !important;
+    font-size: 13px;
+}
+
+
+.sidenav form button {
+    border-radius: 0;
+    width: 100%;
+    background: #686AFF;
+    border: none;
+    font-size: 13px;
+}
+
+.sidenav form label {
+    font-size: 12px;
+}

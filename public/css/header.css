@@ -1,0 +1,85 @@
+header {
+    background: url('../image/auth/background.jpg');
+    min-height: 50vh;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+header .overlay {
+    background: #0005;
+    height: 100%;
+    width: 100%;
+}
+
+header .page-name {
+    font-size: 50px;
+    color: #fff;
+}
+
+nav {
+    z-index: 10;
+}
+
+nav ul li a{
+    color: #ccc;
+    font-size: 14px;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: rgb(152, 151, 151);
+}
+
+.logo {
+    width: 140px;
+}
+
+nav ul:nth-child(2) li a {
+    color: #fff;
+    padding-left: 27px !important;
+    padding-right: 27px !important;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 40px;
+}
+
+nav .login-lang-menu li.nav-auth:nth-child(1) a {
+    background: #686AFF;
+}
+
+nav .login-lang-menu li.nav-auth:nth-child(2) a {
+    background: #f7f7f7 !important;
+    color: #000;
+}
+
+nav .navbar-toggler .menu-toggler {
+    font-size: 15px;
+}
+
+nav  .navbar-toggler:focus,
+nav .navbar-toggler:active {
+    outline:  none;
+}
+
+.dropdown-menu {
+    width: 100%;
+    background: #333;
+    border: none;
+    border-radius: 0px;
+    min-width: 174px;
+}
+
+.dropdown-menu .dropdown-item {
+    margin: 0;
+    background: transparent;
+    border: none;
+}
+
+@media screen and (max-width:768px) {
+    nav .navbar-collapse {
+        background: #333;
+        padding: 10px;
+    }
+}

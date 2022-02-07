@@ -1,0 +1,25 @@
+
+
+/* Dashboard */
+
+.box-small-icon-alt {
+    background: #171719;
+    min-height: 108px;
+}
+
+.box-small-icon-alt a {
+    color: #fff !important;
+    font-size: 12px;
+}
+
+.box-small-icon-alt h4,
+.box-small-icon-alt p {
+    font-size: 12px;
+}
+
+.box-small-icon-alt .fa,
+.box-small-icon-alt .fas {
+    border: none;
+    font-size: 20px;
+    -webkit-text-stroke: 1px #fff;
+}

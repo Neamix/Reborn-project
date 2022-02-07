@@ -1,0 +1,27 @@
+.btn-primary-custom {
+    width: 113px;
+    border-radius: 0;
+    background: #232530;
+    border: navajowhite;
+    font-size: 12px;
+    /* font-weight: bold; */
+    padding: 10px;
+    letter-spacing: 2.2px;
+}
+
+
+.btn-toggle-custom {
+    border-radius: 0 !important;
+}
+
+.btn-toggle-custom.active {
+    background: #686AFF !important;
+}
+
+.btn {
+    background: #232530;
+    border-radius: 0px;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
