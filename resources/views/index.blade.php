@@ -21,7 +21,7 @@
                 <div class="row">
                     @forelse($news as $newsData)
                         <div class="col-md-12">
-                            <div class="post mt-4">
+                            <div class="post mb-4">
                             <div class="post-header position-relative"
                                  style="background-image: url('{{asset('storage/web/images/'.$newsData->image->filename)}}');">
                             </div>
