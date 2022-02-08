@@ -1,37 +1,3 @@
-<style>
-footer {
-    background: #1a1a1e;
-    padding-top: 16px;
-    margin-top: 20px;
-}
-
-footer .footer-brand .logo-area img {
-    width: 168px;
-}
-
-footer .footer-brand .paypal {
-    text-align: end;
-}
-
-footer .footer-brand a {
-    color: #fff !important;
-    margin: 0 5px;
-}
-
-
-footer .footer-brand a:hover {
-    text-decoration: none;
-}
-
-footer .footer-brand .paypal img{
-    width: 67px;
-}
-
-footer .copyright {
-    font-size: 12px;
-    padding: 16px;
-}
-</style>
 <footer class="footer w-100">
    <div class="container">
         <div class="footer-brand w-100 d-flex justify-content-center">
